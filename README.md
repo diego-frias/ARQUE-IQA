@@ -16,7 +16,7 @@ This work introduces ARQUE (Anisotropic Richness Quality Estimation), a No-Refer
 
 *   `datasets/`: Instructions for downloading and structuring the LIVE, CSIQ, and TID2013 datasets (no images are hosted here due to licensing).
 *   `benchmark/`: Source code to reproduce the rigorous "Standard No-Leak" cross-validation analysis against the BRISQUE baseline.
-*   `app/`: Command-line interface (CLI) to run ARQUE on your own images and obtain quality scores and distortion probabilities using pre-trained weights. *(Coming soon)*
+*   `app/`**: Aplicação de inferência pronta para uso (Plug & Play) para rodar o ARQUE nas suas próprias imagens. Inclui modelos pré-treinados otimizados, um lote de imagens de teste e a inovadora **Lógica de Consenso Tolerante a Falhas (2 de 3)**, entregando notas de qualidade (AQI) ultra-robustas e diagnósticos precisos de distorção.
 
 ## ⚙️ Installation
 
